@@ -16,8 +16,11 @@ Download and install [VirtualBox for Windows Host](https://www.virtualbox.org/wi
 - Download Docker ToolBox from [here](https://www.docker.com/products/docker-toolbox)
 - Install Docker ToolBox
 - Start "Docker Quickstart Terminal"
-- 
+
 ![Docker Terminal](/img/000_docker_terminal.png)
+
+- Test Docker by running 
+``` $ docker run hello-world ```
 
 ##Prepare Project Folder
 
