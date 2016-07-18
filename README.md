@@ -46,11 +46,14 @@ $ git clone https://github.com/BitBrushCo/dockerstartertest.git
 Open VirtualBox GUI. There should be a VM named "default". This is the VM created by Docker. This "default" VM acts the docker-machine which uses boot2docker to simulate Docker host machine. Docker containers run off of docker-machine. We will need to setup our project folder to be accessible by docker-machine. By default docker-machine (aka boot2docker) mount some specifically named shared folder if it finds them through VirtualBox's shared folder. More information about boot2docker and VirtualBox shared folder can be found [here](https://github.com/boot2docker/boot2docker#virtualbox-guest-additions). Here we are providing a excerpt related to shared folder.
 
 > The first of the following share names that exists (if any) will be automatically mounted at the location specified:
-> 1. Users share at /Users
+> 1.  Users share at /Users
 > 2. /Users share at /Users
 > 3. c/Users share at /c/Users
 > 4. /c/Users share at /c/Users
 > 5. c:/Users share at /c/Users
+1. 222
+2. 222
+
 
 ##
 
