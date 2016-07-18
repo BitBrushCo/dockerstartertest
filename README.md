@@ -2,10 +2,22 @@
 ## Introduction
 This “how to” is intended to be followed strictly. At first it will appears to be very confusing and may seems like unnecessarily complicated. It is confusing as we will be dealing with virtual machine inside a virtual machine all of which will be hosted on top of Windows. A successful test result at the end and inline explanation would clear some of the confusion. A walkthrough and question and answer session regarding the setup will probably be necessary to clear any remaining confusions. We would use a bare minimum Apache Docker image and just a single static html page as our project to demonstrate Docker in this tutorial. 
 
+## Software Installs
+
+### Install Git for Windows 
+Install [Git for Windows project](https://git-for-windows.github.io/). I don't remember clearly but Docker may complain about not finding 'ssh' command. If it complained then install Git for Windows project and have Git binaries in your Windows "PATH" enviornment varialbe.
+
+### Install Oracle VirtualBox
+Again I don't clearly remember if Docker will install VirtualBox for you or you will have to install VirtualBox prior to installing Docker ToolBox. To be on the safe side please install VirtualBox. If Docker ToolBox later insists on install VirtualBox just don't install it again.
+Download and install [VirtualBox for Windows Host](https://www.virtualbox.org/wiki/Downloads)
 
 ## Install Docker with Docker ToolBox
 
->  _to do_
+- Download Docker ToolBox from [here](https://www.docker.com/products/docker-toolbox)
+- Install Docker ToolBox
+- Start "Docker Quickstart Terminal"
+- 
+![Docker Terminal](img/000_docker_terminal)
 
 ##Prepare Project Folder
 
@@ -19,16 +31,11 @@ Open "Docker Quickstart Terminal". Change directory to /d/Projects/BitBrush
 
 Clone test Git project using the following command. You can also use any other Windows Git client like TortoisGit or SourceTree.
 ```bash
-$ git clone https://iyusuf@github.com/BitBrushCo/dockerstartertest.git
+$ git clone https://github.com/BitBrushCo/dockerstartertest.git
 ```
 
-A successful clone would just pull two files. README.md (this markdown file), and an html file named "index.html"
 
-
-
-## Prepare Project Folder
-
-## Clone GIT project
+## 
 
 ## Docker Run
 
