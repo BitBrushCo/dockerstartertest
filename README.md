@@ -17,7 +17,7 @@ Download and install [VirtualBox for Windows Host](https://www.virtualbox.org/wi
 - Install Docker ToolBox
 - Start "Docker Quickstart Terminal"
 - 
-![Docker Terminal](/img/000_docker_terminal)
+![Docker Terminal](https://github.com/BitBrushCo/dockerstartertest/blob/master/img/000_docker_terminal.png)
 
 ##Prepare Project Folder
 
