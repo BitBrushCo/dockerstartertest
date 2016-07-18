@@ -24,7 +24,7 @@ Download and install [VirtualBox for Windows Host](https://www.virtualbox.org/wi
 
 - A successful run of hello-world project will produce a screen similar to this one
 
-![Docker hello world](015_docker-hello-world.png)
+![Docker hello world](/img/015_docker-hello-world.png)
 
 
 ##Prepare Project Folder
