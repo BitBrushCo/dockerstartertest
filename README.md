@@ -22,6 +22,11 @@ Download and install [VirtualBox for Windows Host](https://www.virtualbox.org/wi
 - Test Docker by running 
 ``` $ docker run hello-world ```
 
+- A successful run of hello-world project will produce a screen similar to this one
+
+![Docker hello world](015_docker-hello-world.png)
+
+
 ##Prepare Project Folder
 
 For this tutorial we would assume our project folder is located at drive D: . Let us create a project folder using Windows Explorer as shown below.
