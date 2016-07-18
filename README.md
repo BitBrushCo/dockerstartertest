@@ -1,6 +1,6 @@
 # dockerstartertest
 ## Introduction
-This “how to” is intended to be followed strictly. At first it will appears to be very confusing and may seems like unnecessarily complicated. It is confusing as we will be dealing with virtual machine inside a virtual machine all of which will be hosted on top of Windows. A successful test result at the end and inline explanation would clear some of the confusion. A walkthrough and question and answer session regarding the setup will probably be necessary to clear any remaining confusions. We would use a bare minimum Apache Docker image and just a single static html page as our project to demonstrate Docker in this tutorial. 
+This “how to” is intended to be followed strictly. Main purpose for this tutorial is to enable a new web developer with Docker assuming the developer is using Windows desktop. The tutorial will use a simple Apache docker image to demonstrate Docker ways of setting Sandbox for web site development.  
 
 ## Software Installs
 
