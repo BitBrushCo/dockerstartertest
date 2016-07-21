@@ -1,0 +1,7 @@
+bitbrushapache:
+  build: .
+  container_name: bitbrushapache
+  ports:
+   - "8080:80"
+  volumes:
+    - /Users/BitBrush/dockerstartertest:/var/www/html
