@@ -1,6 +1,6 @@
 # dockerstartertest
 ## Introduction
-This "how to" will show how to install Docker in a Windows machine with a super simple staic web site. We will use a simple Docker image for Apache.
+This "how to" will show how to install Docker in a Windows machine with a super simple staic web site. We will use a simple Docker image for Apache. The tutorial is very simple to follow and easy to build and test. Only major thing you have to be careful is about sharing folders between your hosts, guest and containers. The virtual path in this tutorial is relative to my directory settings in my Windows environment. It may be different in your environment. You should be able to add your own custom path just by changing the "-v" switch when you invoke ```docker run```. Everything else, including adding a shared volume in VirtualBox machine should be standard. There are a lot of different ways to share folders but my intention was to create a convention that would reduce developer's pain by eliminating modification to buld files and runner commands as much as possible.
 
 ## Software Installs
 
