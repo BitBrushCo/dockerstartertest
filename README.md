@@ -65,8 +65,12 @@ Open VirtualBox GUI. There should be a VM named "default". This is the VM create
 - Remove container
 > docker rm $(docker ps -aq)
 
-- Run docker. This command is supposed to
+- Run docker. This command is supposed to start a apache session. 
 
  ``` bash
  docker run -it --rm --name myapache -p 8080:80 -v /Users/BitBrush/dockerstartertest:/usr/local/apache2/htdocs/ httpd:2.4
 ```
+
+- Test apache by opening a browser and trying out http://192.168.99.100:8080/
+
+- This concludes a successful install test of Docker environment in your machine.
