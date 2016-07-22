@@ -1,4 +1,8 @@
 # dockerstartertest
+**IMPORTANT NOTE**
+- Be specially careful about "CR" and "LF" in Windows formatted text files. If you have a shell script that was created in Windows environment, take special care to remove all "CR" from the file. Linux will not be able to run shell script if it contains "CR" character. Using Notepad++ you can convert Windows formatted file into Unix easily. Open Notepad++ and go to menu "Edit">"EOL Conversion">"UNIX/OSX Format".
+- Careful about volume name path mapping between Windows and your virtual containers. Unix is case sensitive and Windows it not. When you declare volume information in "docker run" or in "docker-compose" commands use exact path with proper cases.
+
 ## Introduction
 This "how to" will show how to install Docker in a Windows machine with a super simple staic web site. We will use a simple Docker image for Apache. The tutorial is very simple to follow and easy to build and test. Only major thing you have to be careful is about sharing folders between your hosts, guest and containers. The virtual path in this tutorial is relative to my directory settings in my Windows environment. It may be different in your environment. You should be able to add your own custom path just by changing the "-v" switch when you invoke ```docker run```. Everything else, including adding a shared volume in VirtualBox machine should be standard. There are a lot of different ways to share folders but my intention was to create a convention that would reduce developer's pain by eliminating modification to buld files and runner commands as much as possible.
 
