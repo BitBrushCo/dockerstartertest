@@ -62,7 +62,7 @@ Open VirtualBox GUI. There should be a VM named "default". This is the VM create
 
 You will use **/Users** share and map it to D:\Projects folder. "D:\" drive. This arrangement is to make it easy and convenient for developers to share and update their source code between Windows and Docker containers. 
 
-![VirtualBox Shared Folder]("/img/020_vb_shared_folder.png")
+![VirtualBox Shared Folder](/img/020_vb_shared_folder.png)
 
 
 ## Docker Run
