@@ -84,7 +84,7 @@ Now we would try to run a container and map our project folder which will contai
 - Test apache by opening a browser and trying out http://192.168.99.100:8080/
 
 **NOTE:**
-The run statement simple. We have mapped our Windows folder that contains index.html file is "D:\projects\bitbrushco\dockerstartertest". Docker machine (i.e. boot2docker) sees the directory as "/Users/projects/bitbrushco/dockerstartertest". Remember that in previous steps we shared D:\ drive to /Users in VirtualBox. That step enabled boot2docker vm (the docker machine vm) to use the directory as volumes (i.e. the -v switch) to the running Docker container vm which in turn runs inside another vm boot2docker. This can be confusing since it involves multiple layers of nested virtual machines. Try with different working folder and try to expose them to your container and it will be clear to you eventually. 
+The run statement is simple. We have mapped our Windows folder that contains index.html file is "D:\projects\bitbrushco\dockerstartertest". Docker machine (i.e. boot2docker) sees the directory as "/Users/projects/bitbrushco/dockerstartertest". Remember that in previous steps we shared D:\ drive to /Users in VirtualBox. That step enabled boot2docker vm (the docker machine vm) to use the directory as volumes (i.e. the -v switch) to the running Docker container vm which in turn runs inside another vm boot2docker. This can be confusing since it involves multiple layers of nested virtual machines. Try with different working folder and try to expose them to your container and it will be clear to you eventually. 
 
 
 - This concludes a successful install test of Docker environment in your machine.
