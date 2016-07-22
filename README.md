@@ -51,11 +51,11 @@ Open VirtualBox GUI. There should be a VM named "default". This is the VM create
 
 
 > The first of the following share names that exists (if any) will be automatically mounted at the location specified:
-> 1. Users share at /Users
-> 2. /Users share at /Users
-> 3. c/Users share at /c/Users
-> 4. /c/Users share at /c/Users
-> 5. c:/Users share at /c/Users
+1. Users share at /Users
+2. /Users share at /Users
+3. c/Users share at /c/Users
+4. /c/Users share at /c/Users
+5. c:/Users share at /c/Users
 
 
 ##
